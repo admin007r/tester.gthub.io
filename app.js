@@ -66,12 +66,12 @@ window.addEventListener('load', ()=>{
     speak("Going online");
     wishMe();
     
-    recognition.start();
+    // recognition.start();
 })
 
-// btn.addEventListener('click', ()=>{
-//     recognition.start();
-// })
+btn.addEventListener('click', ()=>{
+    recognition.start();
+})
 
   
 document.addEventListener('keyup', (event) => {
